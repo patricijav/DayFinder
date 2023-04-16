@@ -1,5 +1,7 @@
 # DayFinder
 
+This repository contains the 9th homework from Accenture iOS Bootcamp 2023, to view all homework, visit [this repository](https://github.com/patricijav/HomeWorks).
+
 ### Screenshots from the app:
 
 <img src="https://user-images.githubusercontent.com/100102718/232262462-74b5712c-250b-4009-b7ed-e7f285f1a448.png" height="450">
