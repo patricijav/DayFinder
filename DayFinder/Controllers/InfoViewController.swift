@@ -9,13 +9,19 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    
+    @IBOutlet weak var studentNameLabel: UILabel!
+    @IBOutlet weak var appInfoLabel: UILabel!
+    
+    var studentName = ""
+    var appInfo = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        studentNameLabel.text = studentName
+        appInfoLabel.text = appInfo
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -25,5 +31,4 @@ class InfoViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
